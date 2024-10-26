@@ -18,7 +18,7 @@ Each scaling constant is separated by the '=' delimitor. Its data type is that o
 
 # Metric Used
 
-The numeric metric used in the file data format is always the millimeter. The application is responsible for converting between distinct types of meters.
+The numeric metric used in the file data format is always the millimeter. The application is responsible for converting between the distinct types of cubic metrics.
 
 # List of Delimitors
 
