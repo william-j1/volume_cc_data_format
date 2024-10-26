@@ -22,8 +22,10 @@ The numeric metric used in the file data format is always the millimeter. The ap
 
 # List of Delimitors
 
-[] - splits name of tab and volume list data
-:  - splits properties of geometric object
-\#  - splits objects of volume recipe list
-@  - splits scaling constants from objects
-~ - (reserved) splits multiple tabs iff export is a workspace export
+| Flag | Description                                                          |
+|:----:|----------------------------------------------------------------------|
+| []   | splits name of tab and volume list data
+| :    | splits properties of geometric object
+| \#   | splits objects of volume recipe list
+| @    | splits scaling constants from objects
+| ~    | (reserved) splits multiple tabs iff export is a workspace export
