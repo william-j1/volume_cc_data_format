@@ -33,7 +33,7 @@ The numeric metric used in the file data format is always the millimeter. The ap
 # List of Geometrics
 
 | Type |
-|:----:|
+|:-----|
 | barrel |
 | capsule |
 | cone |
