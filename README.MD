@@ -29,3 +29,33 @@ The numeric metric used in the file data format is always the millimeter. The ap
 | \#   | splits objects of volume recipe list
 | @    | splits scaling constants from objects
 | ~    | (reserved) splits multiple tabs iff export is a workspace export
+
+# List of Geometrics
+
+| Type |
+|:----:|
+| barrel |
+| capsule |
+| cone |
+| conical_frustum |
+| cube |
+| cylinder |
+| ellipsoid |
+| heptagonal_prism |
+| heptagonal_pyramid |
+| hexagonal_prism |
+| hexagonal_pyramid |
+| octagonal_prism |
+| octagonal_pyramid |
+| pentagonal_prism |
+| pentagonal_pyramid |
+| rectangular_pyramid |
+| pyramid_frustum |
+| rectangular_tank |
+| sphere |
+| spherical_cap |
+| stadium_frustum |
+| surplus |
+| trapezoidal_prism |
+| triangular_prism |
+| triangular_pyramid |
