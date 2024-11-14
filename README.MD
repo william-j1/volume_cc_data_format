@@ -1,6 +1,6 @@
 # File Data Format IO
 
-The clear text file format for imports / exports into live web application is described here. Its a relatively simple format at this moment given that it need only accommodate some basic volumetric inputs.
+The clear text file format for imports / exports into live web application is described here.
 
 # Data File String Example
 
