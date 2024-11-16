@@ -18,7 +18,7 @@ The numeric metric used in the file data format is always the millimeter. The ap
 
 # List of Delimitors
 
-| Flag | Description                                                          |
+| Delimitor | Description                                                     |
 |:----:|----------------------------------------------------------------------|
 | []   | splits name of tab and volume list data
 | :    | splits properties of geometric object
