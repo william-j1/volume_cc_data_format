@@ -1,7 +1,3 @@
-# File Data Format IO
-
-The clear text file format for imports / exports into live web application is described here.
-
 # Data File String Example
 
 The string begins with the tab name, for non web application purposes, this may be omitted. Next is the delimitor []. Followed is the internal geometric shape, the "cube" followed by the next delimitor type ':'. The delimitor ':' is used to separate geometric properties. In the case of this cube, only two properties need be provided, these include its label and its edge length defined in millimeters.
@@ -12,9 +8,9 @@ The '#' delimitor is used to split shape types. The @ delimitor splits the shape
 
 Each scaling constant is separated by the '=' delimitor. Its data type is that of a floating point and its interval is equal to [-1, 1]. By default, all objects have a scale set to 1.
 
-# Metric Used
+# File Data Format IO
 
-The numeric metric used in the file data format is always the millimeter. The application is responsible for converting between the distinct types of cubic metrics.
+The clear text file format for imports / exports into live web application is described here.
 
 # List of Delimitors
 
@@ -55,3 +51,7 @@ The numeric metric used in the file data format is always the millimeter. The ap
 | trapezoidal_prism |
 | triangular_prism |
 | triangular_pyramid |
+
+# Metric Used
+
+The numeric metric used in the file data format is always the millimeter. The application is responsible for converting between the distinct types of cubic metrics.
