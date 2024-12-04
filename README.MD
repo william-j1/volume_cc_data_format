@@ -15,7 +15,7 @@ The clear text file format for imports / exports into live web application is de
 # List of Delimitors
 
 | Delimitor | Description                                                                           | Priority |
-|:---------:|---------------------------------------------------------------------------------------|----------|
+|:---------:|---------------------------------------------------------------------------------------|:--------:|
 | ~         | (reserved) splits multiple tabs iff export is a workspace export (not always present) | 5        |
 | @         | splits scaling constants, the order is equal to the object ordering                   | 4        |
 | []        | splits name of tab (left) and volumemetric data (right)                               | 3        |
