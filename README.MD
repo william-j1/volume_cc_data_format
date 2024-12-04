@@ -23,35 +23,35 @@ The clear text file format for imports / exports into live web application is de
 | :         | splits object properties, first field is object type id followed by properties        |--- 05 ---|
 | =         | splits each scaling constant (not always present)                                     |--- 06 ---|
 
-# List of Geometrics
+# Volumetric Objects
 
-| Type |
-|:-----|
-| barrel |
-| capsule |
-| cone |
-| conical_frustum |
-| cube |
-| cylinder |
-| ellipsoid |
-| heptagonal_prism |
-| heptagonal_pyramid |
-| hexagonal_prism |
-| hexagonal_pyramid |
-| octagonal_prism |
-| octagonal_pyramid |
-| pentagonal_prism |
-| pentagonal_pyramid |
-| rectangular_pyramid |
-| pyramid_frustum |
-| rectangular_tank |
-| sphere |
-| spherical_cap |
-| stadium_frustum |
-| surplus |
-| trapezoidal_prism |
-| triangular_prism |
-| triangular_pyramid |
+| ID | Type |
+|:----------|
+| 0  | barrel |
+| 1  | capsule |
+| 2  | cone |
+| 3  | conical_frustum |
+| 4  | cube |
+| 5  | cylinder |
+| 6  | ellipsoid |
+| 7  | heptagonal_prism |
+| 8  | heptagonal_pyramid |
+| 9  | hexagonal_prism |
+| 10 | hexagonal_pyramid |
+| 11 | octagonal_prism |
+| 12 | octagonal_pyramid |
+| 13 | pentagonal_prism |
+| 14 | pentagonal_pyramid |
+| 15 | rectangular_pyramid |
+| 16 | pyramid_frustum |
+| 17 | rectangular_tank |
+| 18 | sphere |
+| 19 | spherical_cap |
+| 20 | stadium_frustum |
+| 21 | surplus |
+| 22 | trapezoidal_prism |
+| 23 | triangular_prism |
+| 24 | triangular_pyramid |
 
 # Metric Used
 
