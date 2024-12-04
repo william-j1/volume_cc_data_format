@@ -18,7 +18,7 @@ The clear text file format for imports / exports into live web application is de
 |:----:|----------------------------------------------------------------------|
 | []   | splits name of tab and volume list data
 | :    | splits properties of geometric object
-| \#   | splits objects of volume recipe list
+| \#   | splits volumetric object types
 | @    | splits scaling constants from objects
 | ~    | (reserved) splits multiple tabs iff export is a workspace export
 
