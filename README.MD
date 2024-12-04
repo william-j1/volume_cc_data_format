@@ -16,12 +16,12 @@ The clear text file format for imports / exports into live web application is de
 
 | Delimitor | Description                                                                           | Priority |
 |:---------:|---------------------------------------------------------------------------------------|----------|
-| ~         | (reserved) splits multiple tabs iff export is a workspace export (not always present) |--- 01 ---|
-| @         | splits scaling constants, the order is equal to the object ordering                   |--- 02 ---|
-| []        | splits name of tab (left) and volume list data (right)                                |--- 03 ---|
-| \#        | splits volumetric object types                                                        |--- 04 ---|
-| :         | splits object properties, first field is object type id followed by properties        |--- 05 ---|
-| =         | splits each scaling constant (not always present)                                     |--- 06 ---|
+| ~         | (reserved) splits multiple tabs iff export is a workspace export (not always present) | 0        |
+| @         | splits scaling constants, the order is equal to the object ordering                   | 1        |
+| []        | splits name of tab (left) and volume list data (right)                                | 2        |
+| \#        | splits volumetric object types                                                        | 3        |
+| :         | splits object properties, first field is object type id followed by properties        | 4        |
+| =         | splits each scaling constant (not always present)                                     | 5        |
 
 # Volumetric Objects
 
