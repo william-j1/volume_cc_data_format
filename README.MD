@@ -26,7 +26,7 @@ The clear text file format for imports / exports into live web application is de
 # Volumetric Objects
 
 | ID | Type |
-|:----------|
+|:---|------|
 | 0  | barrel |
 | 1  | capsule |
 | 2  | cone |
