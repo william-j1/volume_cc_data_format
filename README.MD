@@ -10,7 +10,7 @@ Each scaling constant is separated by the '=' delimitor. Its data type is that o
 
 # File Data Format IO
 
-The clear text file format for imports / exports into live web application is described here.
+The clear text file format is described here.
 
 # List of Delimitors
 
