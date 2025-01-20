@@ -27,31 +27,31 @@ The clear text file format is described here.
 
 | ID | Type |
 |:---|------|
-| 0  | barrel |
-| 1  | capsule |
-| 2  | cone |
-| 3  | conical_frustum |
-| 4  | cube |
-| 5  | cylinder |
-| 6  | ellipsoid |
-| 7  | heptagonal_prism |
-| 8  | heptagonal_pyramid |
-| 9  | hexagonal_prism |
-| 10 | hexagonal_pyramid |
-| 11 | octagonal_prism |
-| 12 | octagonal_pyramid |
-| 13 | pentagonal_prism |
-| 14 | pentagonal_pyramid |
-| 15 | rectangular_pyramid |
-| 16 | pyramid_frustum |
-| 17 | rectangular_tank |
-| 18 | sphere |
-| 19 | spherical_cap |
-| 20 | stadium_frustum |
-| 21 | surplus |
-| 22 | trapezoidal_prism |
-| 23 | triangular_prism |
-| 24 | triangular_pyramid |
+| 1  | barrel |
+| 2  | capsule |
+| 3  | cone |
+| 4  | conical_frustum |
+| 5  | cube |
+| 6  | cylinder |
+| 7  | ellipsoid |
+| 8  | heptagonal_prism |
+| 9  | heptagonal_pyramid |
+| 10 | hexagonal_prism |
+| 11 | hexagonal_pyramid |
+| 12 | octagonal_prism |
+| 13 | octagonal_pyramid |
+| 14 | pentagonal_prism |
+| 15 | pentagonal_pyramid |
+| 16 | rectangular_pyramid |
+| 17 | pyramid_frustum |
+| 18 | rectangular_tank |
+| 19 | sphere |
+| 20 | spherical_cap |
+| 21 | stadium_frustum |
+| 22 | surplus |
+| 23 | trapezoidal_prism |
+| 24 | triangular_prism |
+| 25 | triangular_pyramid |
 
 # Metric Used
 
