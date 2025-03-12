@@ -52,6 +52,7 @@ The clear text file format is described here.
 | 23 | trapezoidal_prism |
 | 24 | triangular_prism |
 | 25 | triangular_pyramid |
+| 26 | torus |
 
 # Metric Used
 
