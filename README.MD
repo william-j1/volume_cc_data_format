@@ -17,11 +17,11 @@ The clear text file format is described here.
 | Delimitor | Description                                                                           | Priority |
 |:---------:|---------------------------------------------------------------------------------------|:--------:|
 | ~         | (reserved) splits multiple tabs iff export is a workspace export (not always present) | 5        |
-| @         | splits scales (right) from dataset (left), the order is equal to the object ordering  | 4        |
-| []        | splits name of tab (left) and volumetric data (right)                                 | 3        |
+| []        | splits name of tab (left) and volumetric data (right)                                 | 4        |
+| @         | splits scales (right) from dataset (left), the order is equal to the object ordering  | 3        |
 | \#        | splits volumetric object types                                                        | 2        |
 | :         | splits object properties, first field is object type id followed by properties        | 1        |
-| =         | splits each scaling constant (not always present)                                     | 0        |
+| =         | splits each scaling constant                                                          | 0        |
 
 # Volumetric Objects
 
