@@ -1,6 +1,6 @@
 # Data File String Example
 
-The string begins with the tab name, for non web application purposes, this may be omitted. Next is the delimitor []. Followed is the internal geometric shape, the "cube" followed by the next delimitor type ':'. The delimitor ':' is used to separate geometric properties. In the case of this cube, only two properties need be provided, these include its label and its edge length defined in millimeters.
+The substring begins with the tab name, for non web application purposes, this may be omitted. Next is the delimitor []. Followed is the internal geometric shape, the "cube" followed by the next delimitor type ':'. The delimitor ':' is used to separate geometric properties. In the case of this cube, only two properties need be provided, these include its label and its edge length defined in millimeters.
 
 The initial form is always SHAPE_TYPE:LABEL. The LABEL is a base64 encoding. The properties which follow are numerics exclusively relative to the shape type. For an example, a cube will have less properties than a cylinder and indeed the cylinder lesser properties than a stadium frustum.
 
@@ -16,7 +16,7 @@ The clear text file format is described here.
 
 | Delimitor | Description                                                                           | Priority |
 |:---------:|---------------------------------------------------------------------------------------|:--------:|
-| ~         | (reserved) splits multiple tabs iff export is a workspace export (not always present) | 5        |
+| ~         | splits multiple tabs iff export is a workspace export (not always present)            | 5        |
 | []        | splits name of tab (title), dataset (middle or right) and comments (optional right)   | 4        |
 | @         | splits scales (right) from dataset (left), the order is equal to the object ordering  | 3        |
 | \#        | splits volumetric object types                                                        | 2        |
